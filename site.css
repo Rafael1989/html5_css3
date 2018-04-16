@@ -93,11 +93,20 @@ aside{
     float: left;
     width: 15%;
     box-sizing: border-box;
+    position: relative;
+    top: 300px;
+    border: 10px solid black;
 }
+
 footer{
     background-color:#000000;
     color:#F2FFFC;
     clear:both;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 nav a {
@@ -187,8 +196,12 @@ main{
     clear: both;
 }
 
-aside img{
-    width: 70%;
+img{
+    position: absolute;
+    top:0px;
+    right: 0px;
+    border: 10px solid black;
 }
+
 
 
